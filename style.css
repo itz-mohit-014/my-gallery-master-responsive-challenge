@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 60px 0px;
+
+
+}
+.profilecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.profile-img{
+    max-height: 156px;
+    max-width: 156PX;
+    
+}
+.profile-img > img{
+    border-radius: 16px;
+    height: 100%;
+    width: 100%;
+}
+
+#person-name {
+    font-family: "Montserrat";
+    font-weight: 600;
+    margin-top: 16px;
+    font-size: 24px;
+    line-height: 30px;
+    color: #4E5150;
+}
+#place {
+    margin-top:8px ;
+    font-family: "Montserrat";
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 18px;
+    color: #A9A9A9;
+
+}
+.follower-btn-container > .btn{
+    width: 100px;
+    height: 67px ;
+    background-color: #E5E5E5;
+    border-radius: 10%;
+    border: none;
+    margin: 24px;
+    font-family: "Montserrat";
+    font-weight: 600;
+}
+
+.follower-btn-container > .btn > p :nth-child(1){
+    font-size: 18px;
+    line-height: 22px;
+    color: #4E5150;
+    display: inline-block;
+    width: 70%;
+}
+.follower-btn-container > .btn > p :nth-child(2){
+    font-size: 14px;
+    line-height: 18px;
+    color: #bdbdbd;
+}
+
+
+/* gallery styling */
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 32px;
+    margin: 0px auto;
+    margin-bottom:60px ;
+    max-width: 1020px;
+    width: 100vw;
+    padding:0px 3%;
+
+}
+
+.gallery-images > img{
+    border-radius: 5%;
+    max-width: 100%;
+    max-height: 100%;
+    
+}
+#second{
+    grid-column-start: 2 ;
+    grid-column-end: -1 ;
+
+}
+#third{
+    grid-column-start: 1 ;
+    grid-column-end: 3 ;
+
+
+}
+
+#fourth{
+   grid-row: span 2;
+}
+
+.footer-text{
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom:24px ;
+    color: #B9BDCF;
+}
+.footer-text > a{
+    color: #B9BDCF;
+
+}
+
+@media  screen and  (200px <= width <=600px) {
+
+    header{
+        margin: 30px 0px;
+    
+    }
+    .profile-img{
+        max-height: 100px;
+        max-width: 100PX;
+        
+    }
+    #person-name {
+        font-size: 14px;
+        line-height: 18px;
+        margin-top: 12px;
+    }
+    #place {
+        margin-top: 5px;
+        font-size: 10px;
+        line-height: 13px;
+    }
+    .follower-btn-container > .btn{
+        margin: 12px;
+        width: 22vw;
+        height: 6vh;
+        max-width: 78px;
+        max-height: 52px;
+    }
+    .follower-btn-container > .btn > p :first-child{
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .follower-btn-container > .btn > p :last-child{
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+       /* gallery styling */
+    .gallery{
+        grid-gap: 12px;
+
+    }
+    .footer-text{
+        margin-bottom: 10px;
+    }
+}
