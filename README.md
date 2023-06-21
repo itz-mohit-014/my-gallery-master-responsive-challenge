@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://itz-mohit-014.github.io/my-gallery-master-responsive-challenge/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="git@github.com:itz-mohit-014/my-gallery-master-responsive-challenge.git">
       Solution
     </a>
     <span> | </span>
@@ -36,40 +36,36 @@
 
 ## Overview
 
-![screenshot](https://user-images.githubusercontent.com/16707738/92399059-5716eb00-f132-11ea-8b14-bcacdc8ec97b.png)
+![screenshot](./solved-screenshot/Screenshot%202023-06-21%20at%2013-09-47%20My%20Gallery%20challenge%20devchallenges.png)
+![screenshot](./solved-screenshot/Screen%20Shot%202023-06-21%20at%2013.10.28.png)
 
-Introduce your projects by taking a screenshot or a gif. Try to tell visitors a story about your project by answering:
+- Fully Responsive Challenge Solved
+- Based on my knowledge and tried to less write line of code to make responsive design as well.
 
-- Where can I see your demo?
-- What was your experience?
-- What have you learned/improved?
-- Your wisdom? :)
 
 ### Built With
 
-<!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
-
-- [React](https://reactjs.org/)
-- [Vue.js](https://vuejs.org/)
-- [Tailwind](https://tailwindcss.com/)
+- [HTML]
+- [CSS]
 
 ## Features
 
-<!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
 This application/site was created as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/gcbWLxG6wdennelX7b8I) was to build an application to complete the given user stories.
+
+- Hover one the Images gallery and Follwers button will looking beautiful.
+- Animated followers buttons
 
 
 ## Acknowledgements
 
-<!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For exmpale -->
-
 - [Steps to replicate a design with only HTML and CSS](https://devchallenges-blogs.web.app/how-to-replicate-design/)
-- [Node.js](https://nodejs.org/)
 - [Marked - a markdown parser](https://github.com/chjj/marked)
+
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+
+- GitHub [@itz-mohit-014](https://github.com/itz-mohit-014)
+- Linkedin [@mohit487](https://www.linkedin.com/in/mohit487/)
+- Instagram [@div_monu_01](https://www.instagram.com/div_monu_01/)
